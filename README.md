@@ -11,7 +11,7 @@ The correct usage is in the following format
   
   ./enigma plugboards/I.pb reflectors/I.rf rotors/I.rot rotors/I.pos
  
- The files are found in the folders named after the component to which they relate; They must be both well-formed and compatible. If the need arises, please consult the spec* pdf file.
+ The files are found in the folders named after the component to which they relate. They must be both well-formed and compatible. If the need arises, please consult the spec* pdf file.
  
   ### Notes
   
