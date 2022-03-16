@@ -17,7 +17,7 @@ The correct usage is in the following format
   
   The design choices are extensively documented in the relevant sections of the code. In general, the design is rather straighforwardly object oriented, except in the case of the IO and Errors namespaces; I believed it more prudent to keep the error message handling and IO interactions separate form the core functionality of the actual cirtual machine. This is, in a way, reflective of the problem it is modelling, since operators only interact with the machine via buttons, and by changing components or alltering the wiring.
 
-    ### Possible improvements
+  ### Possible improvements
   
   It would be a good idea to replace self-managed parsing based on expectatios formulated on the basis of existing files and the exercise with one that handles edge cases better (i.e. using existing library functions such as >>).
   
